@@ -21,11 +21,7 @@
   },
   "homepage": "https://github.com/hikmahgumelar/taruna#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "bluebird": "^3.4.7"
-=======
     "oauth-sign": "~0.8.2",
     "bluebird": "~3.4.7"
->>>>>>> 334acb2442fcbb5c355e48857b7263fb68b8ee67
   }
 }
