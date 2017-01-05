@@ -4,8 +4,8 @@
   "description": "taruna A1 twitt",
   "main": "taruna.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node taruna.js"
+     },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hikmahgumelar/taruna.git"
