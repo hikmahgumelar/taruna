@@ -5,7 +5,7 @@
   "main": "taruna.js",
   "scripts": {
     "start": "node taruna.js"
-     },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hikmahgumelar/taruna.git"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/hikmahgumelar/taruna/issues"
   },
-  "homepage": "https://github.com/hikmahgumelar/taruna#readme"
+  "homepage": "https://github.com/hikmahgumelar/taruna#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
 }
