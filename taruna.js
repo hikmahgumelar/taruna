@@ -30,7 +30,7 @@ setInterval(function() {
 
   if(rand <= 0.10) {      //  tweet popular github tweet
     var params = {
-        q: 'badan siber nasional'
+        q: ['nodejs','javascript','hikmahgumelar']
       , since: datestring()
       , result_type: 'mixed'
     };
