@@ -1,0 +1,26 @@
+
+> taruna@1.0.0 start /opt/app/taruna
+> node taruna.js
+
+bot : Jalan.
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'oauth-sign'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Request.init (/usr/lib/nodejs/request/index.js:290:25)
+    at new Request (/usr/lib/nodejs/request/index.js:124:8)
+    at request (/usr/lib/nodejs/request/index.js:1279:11)
+    at Twitter._doRestApiRequest (/opt/app/taruna/module/twitter.js:298:13)
+    at /opt/app/taruna/module/twitter.js:95:14
+    at process._tickCallback (node.js:415:13)
+npm ERR! weird error 8
+npm WARN This failure might be due to the use of legacy binary "node"
+npm WARN For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+ 
+npm ERR! not ok code 0
